@@ -1,0 +1,66 @@
+body{
+    background-image: url(4b07f1bd83bada3d24da98e2873430de.jpg);
+    color: white;
+}
+
+img{
+    display: block;
+}
+
+img:hover{
+    animation: spin linear 2s;
+}
+
+.command{
+    font-weight: bold;
+}
+
+.terminal{
+    font-family: monospace;
+    background-color: black;
+    color: white;
+}
+
+.terminal:hover{
+    background-color: pink;
+    color: purple;
+}
+
+#cheatsheet{
+    background-color: orange;
+    color: black;
+    border-width: 5px;
+    border-style: dashed;
+    vertical-align: middle;
+}
+
+tr:nth-child(even){
+    background-color: red;
+}
+
+th:first-of-type{
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#link{
+    font-size: 20px;
+    color:white;
+}
+
+#link:visited{
+    color:yellow;
+}
+
+#title{
+    text-align: center;
+}
+
+@keyframes spin{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+
+#takeover{
+    font-size: 0;
+}
